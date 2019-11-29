@@ -18,6 +18,7 @@ from django.urls import path
 from WebApp import views
 
 urlpatterns = [
-    path('forms/', views.EmpView),
+    path('forms/', views.EmpView, name="FormPage"),
+    path('Thanks/', views.ThankView, name="Thanks"),
     path('admin/', admin.site.urls),
 ]

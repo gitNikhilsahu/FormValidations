@@ -2,5 +2,6 @@ body{
     background-image: url('/static/images/bg.jpg');
 }
 h1{
-    color: yellow;
+    color: darkcyan;
+    text-align: center;
 }
